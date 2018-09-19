@@ -18,17 +18,23 @@ h6 {
 }
 a {
 	font-family: 'calibri';
-	color: white;
+
+	cursor: pointer;
 }
 
 header {
-	background-image: url("../img/back-header.jpg");
-	height: 967px;
-	background-repeat: no-repeat;
-	background-position: center center;
+	background: url("../img/back-header.jpg") no-repeat center center;
+	height: 600px;
+}
+content {
+	height: 600px;
+	background-color: white;
 }
 
-.navbar {
-	color: white;
-	background-color: #0202026e;
+a:hover a{
+ 	color: blue;	
+}
+
+header a {
+	font-size: 20px;
 }
