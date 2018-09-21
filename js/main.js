@@ -14,7 +14,7 @@ $(window).scroll(function() {
 		})
 	}else {
 		$(".navbar").css({
-			"background-color": "#0000002a"
+			"background-color": "#00000000"
 		});
 		$(".brand").css({
 			"font-size": "35px"
@@ -23,5 +23,10 @@ $(window).scroll(function() {
 			"font-size": "20px"
 		})
 	}
+
+	$(".header_back").css({
+		"transform": "translate(0%, " + scroll/20 + "%"
+	})
+
 });
 
